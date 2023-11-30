@@ -2,7 +2,7 @@ import 'cypress-xpath';
 import pageComputerDatabase from "../pages/pageComputerDatabase";
 import pageAddNewComputer from "../pages/pageAddNewComputer";
 
-describe('It Should allow users to add new computers to the database for searching at a later date', () => {
+describe('[smoke] It Should allow users to add new computers to the database for searching at a later date', () => {
   // Before each test case, visit the specified URL
   beforeEach(() => {
     cy.visit('http://computer-database.gatling.io/computers');
